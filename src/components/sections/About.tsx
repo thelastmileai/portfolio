@@ -23,12 +23,11 @@ const About: React.FC = () => {
             className="rounded-lg overflow-hidden shadow-xl transform transition-all duration-500 hover:scale-105"
             style={{ maxHeight: '500px' }}
           >
-            <img
-  src="https://github.com/thelastmileai/ImageHost/blob/main/Adobe%20Express%20-%20file.png?raw=true"
-  alt="Full Image"
-  style={{ width: 'auto', height: 'auto', maxWidth: '100%' }}
+             <img
+  src="https://static.vecteezy.com/system/resources/previews/025/794/537/non_2x/asian-woman-in-hijab-working-on-laptop-beautiful-woman-in-hijab-smiling-using-laptop-illustration-free-download-free-vector.jpg"
+  alt="Hijabi Woman"
+  className="w-full h-auto object-cover"
 />
-
           </div>
           
           <div className="space-y-6">
