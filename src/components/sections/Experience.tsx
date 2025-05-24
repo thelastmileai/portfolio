@@ -190,24 +190,22 @@ const Experience: React.FC = () => {
                   
                   {job.expanded && (
   <div className="mt-4 space-y-2 animate-fadeIn">
-    <h4
-      className={`font-medium
-        ${index % 2 === 0
+    <h4 className={
+      `font-medium ${
+        index % 2 === 0
           ? 'text-left ml-8'
           : 'md:text-right md:mr-8 text-left ml-8 md:ml-0'
-        }`
-      }
-    >
+      }`
+    }>
       Key Responsibilities:
     </h4>
-    <ul
-      className={`list-disc list-inside space-y-1
-        ${index % 2 === 0
+    <ul className={
+      `list-disc list-inside space-y-1 ${
+        index % 2 === 0
           ? 'ml-8 text-left'
           : 'md:mr-8 md:text-right ml-8 md:ml-0 text-left'
-        }`
-      }
-    >
+      }`
+    }>
       {job.responsibilities.map((responsibility, i) => (
         <li key={i}>{responsibility}</li>
       ))}
