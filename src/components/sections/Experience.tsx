@@ -193,7 +193,7 @@ const Experience: React.FC = () => {
                       <h4 className="font-medium">Key Responsibilities:</h4>
                       <ul className={`list-disc ${index % 2 === 0 ? 'ml-5' : 'ml-5 md:mr-5 md:ml-0 md:text-right'} space-y-1`}>
                         {job.responsibilities.map((responsibility, i) => (
-                          <li key={i} className={index % 2 === 1 ? 'md:list-none' : ''}>{responsibility}</li>
+                          <<li key={i}>{responsibility}</li>
                         ))}
                       </ul>
                     </div>
