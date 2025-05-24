@@ -145,7 +145,7 @@ const Experience: React.FC = () => {
               <div 
                 key={job.id} 
                 className={`relative mb-12 ${
-                  index % 2 === 0 ? 'md:ml-auto md:pl-16 md:pr-0 md:text-left' : 'md:mr-auto md:pr-16 md:pl-0 md:text-right'
+                  index % 2 === 0 ? 'md:ml-auto md:pl-16 md:pr-0' : 'md:mr-auto md:pr-16 md:pl-0'
                 } md:w-1/2 pl-12`}
               >
                 {/* Timeline Dot */}
