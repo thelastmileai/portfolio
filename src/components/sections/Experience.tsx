@@ -193,7 +193,7 @@ const Experience: React.FC = () => {
                       <h4 className="font-medium">Key Responsibilities:</h4>
                       <ul className="list-disc ml-5 space-y-1">
                         {job.responsibilities.map((responsibility, i) => (
-                          <<li key={i}>{responsibility}</li>
+                          <li key={i}>{responsibility}</li>
                         ))}
                       </ul>
                     </div>
