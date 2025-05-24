@@ -52,10 +52,7 @@ const Hero: React.FC = () => {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage:
-            'url("https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          
           opacity: theme === 'dark' ? 0.2 : 0.1,
         }}
       />
@@ -68,7 +65,7 @@ const Hero: React.FC = () => {
       />
 
       {/* Main content */}
-      <div className="container mx-auto px-6 py-12 relative z-10">
+      <div className="container mt-10 px-8 py-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center lg:items-center justify-between gap-12">
           {/* Left content */}
           <div className="flex flex-col items-start space-y-6 max-w-2xl">
@@ -122,11 +119,8 @@ const Hero: React.FC = () => {
 
           {/* Right image section */}
           <div className="w-full max-w-sm flex-shrink-0">
-            <img
-              src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Noorjahan KM"
-              className="rounded-2xl shadow-lg object-cover w-full h-auto"
-            />
+          <img src="/myphoto.png" alt="My Photo" className="w-full" />
+
           </div>
         </div>
       </div>

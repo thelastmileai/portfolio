@@ -7,47 +7,49 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer 
+    <footer
       className={`py-8 transition-colors duration-300 ${
-        theme === 'dark' 
-          ? 'bg-gray-950 text-gray-300' 
+        theme === 'dark'
+          ? 'bg-gray-950 text-gray-300'
           : 'bg-gray-100 text-gray-700'
       }`}
     >
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          {/* Left Side - Profile Info */}
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <h3 className="text-xl font-bold mb-4">Noorjahan KM</h3>
-            <p className="mb-4 flex items-start">
-              <MapPin size={18} className="mr-2 mt-1 flex-shrink-0" />
+            <p className="mb-4 flex items-center">
+              <MapPin size={18} className="mr-2" />
               <span>Kochi, Kerala, India</span>
             </p>
             <p className="mb-4">
               Experienced professional in data research, operations, and administration with a focus on accuracy and efficiency.
             </p>
           </div>
-          
-          <div>
+
+          {/* Right Side - Contact Info */}
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <h3 className="text-xl font-bold mb-4">Connect With Me</h3>
             <div className="flex flex-col space-y-2">
-              <a 
-                href="mailto:nooraa7045@gmail.com" 
+              <a
+                href="mailto:nooraa7045@gmail.com"
                 className="flex items-center hover:text-blue-500 transition-colors duration-300"
               >
                 <Mail size={18} className="mr-2" />
                 nooraa7045@gmail.com
               </a>
-              <a 
-                href="https://www.linkedin.com/in/noorjahankm/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href="https://www.linkedin.com/in/noorjahankm/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center hover:text-blue-500 transition-colors duration-300"
               >
                 <Linkedin size={18} className="mr-2" />
                 linkedin.com/in/noorjahankm
               </a>
-              <a 
-                href="tel:+919895529846" 
+              <a
+                href="tel:+919895529846"
                 className="flex items-center hover:text-blue-500 transition-colors duration-300"
               >
                 <span className="mr-2">📱</span>
@@ -56,8 +58,9 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        
-        <div className="border-t border-gray-700 dark:border-gray-700 mt-8 pt-6 text-center">
+
+        {/* Bottom Divider */}
+        <div className="border-t border-gray-300 dark:border-gray-700 mt-8 pt-6 text-center">
           <p>© {currentYear} Noorjahan KM. All rights reserved.</p>
         </div>
       </div>

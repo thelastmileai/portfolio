@@ -150,7 +150,7 @@ const Experience: React.FC = () => {
               >
                 {/* Timeline Dot */}
                 <div 
-                  className={`absolute left-0 md:left-auto ${index % 2 === 0 ? 'md:-left-2.5' : 'md:-right-3'} w-6 h-6 rounded-full border-4 ${
+                  className={`absolute left-0 md:left-auto ${index % 2 === 0 ? 'md:-left-3' : 'md:-right-3'} w-6 h-6 rounded-full border-4 ${
                     theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500'
                   } z-10`}
                 ></div>

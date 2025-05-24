@@ -54,7 +54,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
             theme === 'dark' ? 'text-blue-400' : 'text-blue-600'
           }`}
         >
-          Noorjahan KM
+          
         </a>
 
         {/* Desktop Navigation */}
