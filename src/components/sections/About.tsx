@@ -26,6 +26,7 @@ const About: React.FC = () => {
             <img
   src="https://github.com/thelastmileai/ImageHost/blob/main/Adobe%20Express%20-%20file.png?raw=true"
   alt="Full Image"
+  style={{ width: 'auto', height: 'auto', maxWidth: '100%' }}
 />
 
           </div>
