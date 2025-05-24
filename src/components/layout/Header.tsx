@@ -74,7 +74,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
           ))}
           
           <a 
-            href="/resume.pdf" 
+            href="https://drive.google.com/file/d/1wSn9a4sLInBH6qqcEuf2NmumYQD2tfXY/view?usp=drive_link" 
             target="_blank" 
             rel="noopener noreferrer"
             className={`inline-flex items-center gap-1 px-4 py-2 rounded-lg transition-all duration-300 ${
