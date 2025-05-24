@@ -24,7 +24,7 @@ const About: React.FC = () => {
             style={{ maxHeight: '500px' }}
           >
            <img
-  src="https://images.pexels.com/photos/28971474/pexels-photo-28971474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  src="<a href="https://www.vecteezy.com/vector-art/2156735-hijab-woman-sitting-on-the-floor-with-a-laptop">hijab woman sitting on the floor with a laptop Vectors by Vecteezy</a>"
   alt="Professional woman working at desk"
   className="w-full h-full object-cover"
 />
