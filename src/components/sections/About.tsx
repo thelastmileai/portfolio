@@ -24,9 +24,8 @@ const About: React.FC = () => {
             style={{ maxHeight: '500px' }}
           >
             <img
-  src="https://github.com/thelastmileai/ImageHost/blob/main/Adobe%20Express%20-%20file.png?raw=true"
-  alt="Hijabi Woman"
-  className="w-full h-auto object-cover"
+  src="https://raw.githubusercontent.com/thelastmileai/ImageHost/main/Adobe%20Express%20-%20file.png"
+  alt="Full Image"
 />
 
           </div>
