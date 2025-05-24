@@ -149,11 +149,11 @@ const Experience: React.FC = () => {
                 } md:w-1/2 pl-12`}
               >
                 {/* Timeline Dot */}
-                <div
-  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-blue-500 rounded-full z-10"
-                    theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500'
-                  } z-10`}
-                ></div>
+<div
+  className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4 rounded-full border-4 z-10 ${
+    theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500'
+  }`}
+/>
                 
                 {/* Content */}
                 <div 
