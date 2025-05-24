@@ -24,7 +24,7 @@ const About: React.FC = () => {
             style={{ maxHeight: '500px' }}
           >
            <img
-  src="https://cdn.pixabay.com/photo/2022/06/22/17/00/girl-7274620_1280.png"
+  src="https://img.freepik.com/free-vector/illustration-muslim-woman-working-office_52683-17651.jpg?ga=GA1.1.458468233.1748082906&semt=ais_hybrid&w=740"
   alt="Hijabi Woman"
   className="w-full h-auto object-cover"
 />
