@@ -189,7 +189,7 @@ const Experience: React.FC = () => {
                   </div>
                   
                   {job.expanded && (
-  <div className={`mt-4 space-y-2 animate-fadeIn ${index % 2 === 0 ? 'text-left' : 'text-right'}`}>
+  <div className={`mt-4 space-y-2 animate-fadeIn ${index % 2 === 0 ? 'text-left md:text-left' : 'text-right md:text-right'}`}>
     <h4 className={`font-medium ${index % 2 === 0 ? 'text-left md:text-left' : 'text-right md:text-right'}`}>
   Key Responsibilities:
 </h4>
