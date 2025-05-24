@@ -23,10 +23,10 @@ const About: React.FC = () => {
             className="rounded-lg overflow-hidden shadow-xl transform transition-all duration-500 hover:scale-105"
             style={{ maxHeight: '500px' }}
           >
-           <img
-  src="https://drive.google.com/uc?export=view&id=1tz2_Upyl-6l4OUKJUsaiGjgpO21ozjDY"
-  alt="Sample"
-  style={{ width: '300px' }}
+            <img
+  src="https://github.com/thelastmileai/ImageHost/blob/main/Adobe%20Express%20-%20file.png?raw=true"
+  alt="Hijabi Woman"
+  className="w-full h-auto object-cover"
 />
 
           </div>
