@@ -1,6 +1,6 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 
-type Theme = "light" | "dark";
+type Theme = "dark" | "light";
 
 interface ThemeContextType {
   theme: Theme;
@@ -8,33 +8,36 @@ interface ThemeContextType {
 }
 
 const ThemeContext = createContext<ThemeContextType>({
-  theme: "dark", // fallback value
+  theme: "dark",
   toggleTheme: () => {},
 });
 
 export const useTheme = () => useContext(ThemeContext);
 
-const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
-  const [theme, setTheme] = useState<Theme>("dark"); // default is dark
+const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [theme, setTheme] = useState<Theme>("dark");
 
   useEffect(() => {
-    const storedTheme = localStorage.getItem("theme") as Theme | null;
-
-    if (storedTheme) {
-      setTheme(storedTheme);
-      document.documentElement.classList.add(storedTheme);
-    } else {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    }
+    // On mount, force dark mode always
+    document.documentElement.classList.add("dark");
+    localStorage.setItem("theme", "dark");
+    setTheme("dark");
   }, []);
 
   const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "light" : "dark";
-    document.documentElement.classList.remove(theme);
-    document.documentElement.classList.add(newTheme);
-    setTheme(newTheme);
-    localStorage.setItem("theme", newTheme);
+    if (theme === "dark") {
+      // Switch to light mode temporarily — do NOT save it
+      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.add("light");
+      setTheme("light");
+      // No localStorage set here for 'light'
+    } else {
+      // Switch back to dark mode and save it
+      document.documentElement.classList.remove("light");
+      document.documentElement.classList.add("dark");
+      setTheme("dark");
+      localStorage.setItem("theme", "dark");
+    }
   };
 
   return (
