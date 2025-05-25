@@ -25,7 +25,7 @@ const About: React.FC = () => {
           >
              <img
   src="https://github.com/thelastmileai/ImageHost/blob/main/Adobe%20Express%20-%20file.png?raw=true"
-  alt="Hijabi Woman"
+  alt="Hijabi working woman with a Laptop"
   className="w-full h-auto object-cover"
 />
           </div>
