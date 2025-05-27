@@ -151,8 +151,8 @@ const Experience: React.FC = () => {
                 {/* Timeline Dot */}
 <div className={`absolute top-12 w-4 h-4 rounded-full border-2 z-10
   ${index % 2 === 0 
-    ? 'left-full translate-x-[-50%]' 
-    : 'right-full translate-x-[50%]'
+    ? 'right-full translate-x-[-50%]' 
+    : 'left-full translate-x-[50%]'
   }
   ${theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500'}
 `} />
