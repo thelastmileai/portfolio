@@ -148,14 +148,12 @@ const Experience: React.FC = () => {
                   index % 2 === 0 ? 'md:ml-auto md:pl-16 md:pr-0' : 'md:mr-auto md:pr-16 md:pl-0'
                 } md:w-1/2 pl-12`}
               >
-                {/* Timeline Dot */}
-<div className={`absolute top-12 w-4 h-4 rounded-full border-2 z-10
-  ${index % 2 === 0 
-    ? 'right-full translate-x-[-50%]' 
-    : 'left-full translate-x-[50%]'
-  }
-  ${theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500'}
-`} />
+                {/* Timeline Dot - Centered on the line */}
+<div
+  className={`absolute top-12 left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full border-2 z-10 ${
+    theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500'
+  }`}
+/>
              
                 {/* Content */}
                 <div 
