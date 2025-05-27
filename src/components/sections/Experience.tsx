@@ -149,11 +149,11 @@ const Experience: React.FC = () => {
                 } md:w-1/2 pl-12`}
               >
                 {/* Timeline Dot - Left Side */}
-<div className={`absolute left-full top-12 translate-x-[-50%] w-4 h-4 rounded-full border-2 z-10 ${ theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500'} ${index % 2 !== 0 === 'hidden'}`} />
+<div className={`absolute left-full top-12 translate-x-[-50%] w-4 h-4 rounded-full border-2 z-10 ${theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500'} ${index % 2 !== 0 ? 'hidden' : ''}`} />
 
 {/* Timeline Dot - Right Side */}
-<div className={`absolute right-full top-12 translate-x-[50%] w-4 h-4 rounded-full border-2 z-10 ${ theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500' } ${index % 2 === 0 === 'hidden'}`} />
-              
+<div className={`absolute right-full top-12 translate-x-[50%] w-4 h-4 rounded-full border-2 z-10 ${theme === 'dark' ? 'border-gray-800 bg-blue-500' : 'border-white bg-blue-500'} ${index % 2 === 0 ? 'hidden' : ''}`} />
+
                 {/* Content */}
                 <div 
                   className={`p-6 rounded-lg shadow-md transition-all duration-300 ${
