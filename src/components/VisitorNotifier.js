@@ -23,7 +23,7 @@ const VisitorNotifier = () => {
         // Send with EmailJS
         await emailjs.send("service_69wo80g", "template_zki0r1s", {
           message: message,
-        }, "YOUR_PUBLIC_KEY");
+        }, "aM4W47X_gVwJoK4ck");
 
         console.log("Visitor region sent!");
       } catch (error) {
