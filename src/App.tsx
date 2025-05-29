@@ -37,11 +37,12 @@ function App() {
   }, []);
 
   return (
-    <VisitorNotifier />
+    
     <ThemeProvider>
       <Layout>
         <Header activeSection={activeSection} />
         <main>
+          <VisitorNotifier />
           <Hero />
           <About />
           <Skills />
