@@ -9,6 +9,7 @@ import Experience from './components/sections/Experience';
 import Education from './components/sections/Education';
 import Contact from './components/sections/Contact';
 import ThemeProvider from './contexts/ThemeContext';
+import VisitorNotifier from './components/VisitorNotifier';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -36,6 +37,7 @@ function App() {
   }, []);
 
   return (
+    <VisitorNotifier />
     <ThemeProvider>
       <Layout>
         <Header activeSection={activeSection} />
