@@ -15,7 +15,7 @@ const Skills: React.FC = () => {
     { name: 'ContactOut | RocketReach | ZeroBounce', level: 90 },
     { name: 'Excel | Microsoft Office Suite', level: 95 },
     { name: 'Accounts Management (atACC ERP)', level: 80 },
-    { name: 'Google Sheets | Google Workspace level: 95 },
+    { name: 'Google Sheets | Google Workspace', level: 95 },
     { name: 'GenAI proficiency (ChatGPT, Claude, Perplexity, Bolt, Gemini)', level: 100 },
     { name: 'Asana | Notion | Monday.com', level: 85 },
     { name: 'Tech-savvy (GitHub, Stack Overflow, Basic Python, Zapier)', level: 85 },
