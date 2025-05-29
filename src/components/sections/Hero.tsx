@@ -119,7 +119,7 @@ const Hero: React.FC = () => {
 
           {/* Right image section */}
           <div className="w-full max-w-sm flex-shrink-0">
-{/*            <img src="/public/myphoto.png" alt="My Photo" className="w-full" /> */}
+           <img src="https://github.com/thelastmileai/ImageHost/blob/main/Noorjahan%20KM.png?raw=true" alt="My Photo" className="w-full" />
 
           </div> 
         </div>
