@@ -33,11 +33,11 @@ const About: React.FC = () => {
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">Professional Summary</h3>
             <p className="text-lg leading-relaxed">
-              Experienced professional in data & market research, operations, administration, and process optimization across multiple sectors. Proficient in lead generation and account management tools, with a strong focus on accuracy and efficiency. Proven ability to multitask, meet performance targets, embrace AI technology and support operational success through effective coordination and communication.
+              Experienced professional in data & market research, operations, administration, and process optimization across multiple sectors. Proficient in data research tools required for lead generation and account management tools, with a strong focus on accuracy and efficiency. Proven ability to multitask, meet performance targets, embrace AI technology and support operational success through effective coordination and communication.
             </p>
             
             <p className="text-lg leading-relaxed">
-              Interested in transitioning into AI product/data analysis. Skilled in leveraging AI tools like ChatGPT, Claude, Perplexity, Gemini and Bolt.new to generate data-driven insights and enhance decision-making. Currently self-studying automation tools like Zapier to streamline workflows and basic Python for data analysis.
+              Interested in transitioning into AI product/data analysis. Skilled in leveraging AI tools like ChatGPT, Claude, Perplexity, Gemini and Bolt.new to generate data-driven insights and enhance decision-making. Currently self-studying automation tools like Zapier to streamline workflows. Demonstrates a strong willingness to learn new tools and quickly adapt to emerging technical concepts.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-6">
