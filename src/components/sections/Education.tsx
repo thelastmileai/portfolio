@@ -9,7 +9,7 @@ const Education: React.FC = () => {
     {
       degree: 'Bachelor of Business Administration (BBA)',
       institution: 'Indira Gandhi National Open University (IGNOU)',
-      period: 'Jan 2025 - Ongoing',
+      period: 'Jan 2025 - Present',
       description: 'Currently pursuing to enhance knowledge in business administration and management principles.'
     },
     {
