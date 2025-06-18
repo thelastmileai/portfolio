@@ -9,14 +9,14 @@ const Education: React.FC = () => {
     {
       degree: 'Bachelor of Business Administration (BBA)',
       institution: 'Indira Gandhi National Open University (IGNOU)',
-      period: 'Jan 2025 - 2028',
+      period: 'Jan 2025 - Ongoing',
       description: 'Currently pursuing to enhance knowledge in business administration and management principles.'
     },
     {
       degree: 'Diploma in Computer Engineering',
       institution: 'Govt. Polytechnic College, Kalamassery',
       period: '2017 - 2018',
-      description: 'Acquired basic technical/programming skills and understanding of computer systems; Discontinued after one year to explore other career paths.'
+      description: 'Acquired basic technical/programming skills and understanding of computer systems; Discontinued after a year to explore fields better aligned with my long-term interests.'
     },
     {
       degree: 'Higher Secondary: Science',
