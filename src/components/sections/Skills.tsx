@@ -35,10 +35,10 @@ const Skills: React.FC = () => {
   ];
 
   const languages = [
-  { name: 'English', level: 'Native-like (C1 – Advanced)', score: 100 },
-  { name: 'Hindi', level: 'Intermediate', score: 70 },
-  { name: 'Malayalam', level: 'Native', score: 100 },
-];
+    { name: 'English', level: 'Native' },
+    { name: 'Hindi', level: 'Intermediate' },
+    { name: 'Malayalam', level: 'Native' },
+  ];
 
   return (
     <section 
