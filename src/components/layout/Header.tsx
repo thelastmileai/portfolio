@@ -74,7 +74,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
           ))}
           
           <a 
-            href="https://drive.google.com/file/d/1lsnZirxw5tbCw-7jfPgtPjfrurZVjai6/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1JLrsLaIvxx7rq-nbtNpHWRZTvGKwNiJR/view?usp=sharing" 
             target="_blank" 
             rel="noopener noreferrer"
             className={`inline-flex items-center gap-1 px-4 py-2 rounded-lg transition-all duration-300 ${
