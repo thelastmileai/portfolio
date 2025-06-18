@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
   const technicalSkills = [
     { name: 'Data Research', level: 100 },
     { name: 'Market Research', level: 95 },
-    { name: 'Lead Generation', level: 90 },
+    { name: 'Self-learning Zapier', level: 70 },
     { name: 'LinkedIn Sales Navigator', level: 90 },
     { name: 'Apollo | ZoomInfo | Crunchbase', level: 80 },
     { name: 'ContactOut | RocketReach | ZeroBounce', level: 90 },
@@ -35,10 +35,10 @@ const Skills: React.FC = () => {
   ];
 
   const languages = [
-    { name: 'English', level: 'Native' },
-    { name: 'Hindi', level: 'Intermediate' },
-    { name: 'Malayalam', level: 'Native' },
-  ];
+  { name: 'English', level: 'Fluent (C1 – Advanced)', score: 100 },
+  { name: 'Hindi', level: 'Intermediate', score: 70 },
+  { name: 'Malayalam', level: 'Native', score: 100 },
+];
 
   return (
     <section 
