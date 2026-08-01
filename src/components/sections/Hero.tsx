@@ -88,8 +88,7 @@ const Hero: React.FC = () => {
             </div>
 
             <p className="text-lg md:text-xl">
-              Experienced professional in data & market research, operations, administration, and
-              process optimization across multiple sectors.
+              Data-driven operations professional with a passion for clean systems, clear docs, and solving the problems in between.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
