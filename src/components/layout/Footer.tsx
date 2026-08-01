@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left Side - Profile Info */}
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
-            <h3 className="text-xl font-bold mb-4">Noorjahan KM</h3>
+            <h3 className="text-xl font-bold mb-4"></h3>
             <p className="mb-4 flex items-center">
               <MapPin size={18} className="mr-2" />
               <span>Kochi, Kerala, India</span>
