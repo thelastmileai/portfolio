@@ -7,8 +7,8 @@ const Hero: React.FC = () => {
   const [typedText, setTypedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const titles = [
-    'Operations/Data Specialist',
-    'Market Researcher',
+    'Data/Operations Specialist',
+    'Market Research Specialist',
     'Product Documentation Specialist',
   ];
 
