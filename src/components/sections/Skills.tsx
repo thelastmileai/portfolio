@@ -28,13 +28,6 @@ const Skills: React.FC = () => {
     { name: 'Office Administration', level: 90 },
     { name: 'Internal Operations', level: 90 },
     { name: 'Documentation and Task Resolution', level: 90 },
-    { name: 'Business Operations', level: 90 },
-    { name: 'Communication', level: 100 },
-    { name: 'Time Management', level: 90 },
-    { name: 'Adaptability', level: 100 },
-    { name: 'Problem Solving', level: 90 },
-    { name: 'Attention to Detail', level: 100 },
-    { name: 'Team Collaboration', level: 90 },
   ];
 
   const languages = [
@@ -180,9 +173,7 @@ const Skills: React.FC = () => {
                       <div className="w-6 h-6 rounded-full bg-blue-600 mx-1"></div>
                       <div className="w-6 h-6 rounded-full bg-blue-600 mx-1"></div>
                       <div className="w-6 h-6 rounded-full bg-blue-600 mx-1"></div>
-                      <div className={`w-6 h-6 rounded-full mx-1 ${
-                        theme === 'dark' ? 'bg-gray-700' : 'bg-gray-200'
-                      }`}></div>
+                      <div className="w-6 h-6 rounded-full bg-blue-600 mx-1"></div>
                     </>
                   )}
                   {language.level === 'Intermediate' && (
