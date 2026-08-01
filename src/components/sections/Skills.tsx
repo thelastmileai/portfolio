@@ -27,7 +27,7 @@ const Skills: React.FC = () => {
     { name: 'Content and Copy Creation', level: 100 },
     { name: 'Office Administration', level: 90 },
     { name: 'Internal Operations', level: 90 },
-    { name: 'Documentation and Task Resolution', level: 90 },
+    { name: 'Documentation and Ticket Resolution', level: 90 },
   ];
 
   const languages = [
