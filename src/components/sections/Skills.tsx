@@ -14,17 +14,20 @@ const Skills: React.FC = () => {
     { name: 'Apollo | ZoomInfo | Crunchbase', level: 80 },
     { name: 'ContactOut | RocketReach | ZeroBounce', level: 90 },
     { name: 'Excel | Microsoft Office Suite', level: 95 },
-    { name: 'Accounts Management (atACC ERP)', level: 80 },
+    { name: 'Striven ERP (CRM+Accounting+Workflow Automation+Report Builder+Task/Project Management+HR)', level: 90 },
+    { name: 'Accounting Operations (atACC ERP)', level: 80 },
     { name: 'Google Sheets | Google Workspace', level: 95 },
     { name: 'GenAI proficiency (ChatGPT, Claude, Perplexity, Bolt, Gemini)', level: 100 },
     { name: 'Asana | Notion | Monday.com', level: 85 },
-    { name: 'Tech-savvy (GitHub, Stack Overflow, Basic Python, Zapier)', level: 85 },
+    { name: 'Tech-savvy (GitHub, Stack Overflow)', level: 85 },
   ];
 
   const softSkills = [
     { name: 'English Language Proficiency', level: 100 },
     { name: 'Content and Copy Creation', level: 100 },
     { name: 'Office Administration', level: 90 },
+    { name: 'Internal Operations', level: 90 },
+    { name: 'Documentation and Task Resolution', level: 90 },
     { name: 'Business Operations', level: 90 },
     { name: 'Communication', level: 100 },
     { name: 'Time Management', level: 90 },
@@ -35,7 +38,7 @@ const Skills: React.FC = () => {
   ];
 
   const languages = [
-    { name: 'English', level: 'Native' },
+    { name: 'English', level: 'Proficient' },
     { name: 'Hindi', level: 'Intermediate' },
     { name: 'Malayalam', level: 'Native' },
   ];
