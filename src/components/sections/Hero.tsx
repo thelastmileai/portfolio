@@ -7,10 +7,9 @@ const Hero: React.FC = () => {
   const [typedText, setTypedText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const titles = [
-    'Operations Executive',
-    'Data Research Specialist',
+    'Operations/Data Specialist',
     'Market Researcher',
-    'Administrative Professional',
+    'Product Documentation Specialist',
   ];
 
   const isDeletingRef = useRef(false);
