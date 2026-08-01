@@ -36,6 +36,7 @@ const Experience: React.FC = () => {
       company: 'Miles IT - USA (India - Remote)',
       period: 'Aug 2025 - Jan 2026',
       responsibilities: [
+        'Striven is a cloud-based SaaS ERP solution that unifies CRM, Accounting, Operations, and HR tools into one platform, enabling businesses to streamline workflows and improve efficiency.',
         'Supported clients in adopting Striven\'s cloud-based ERP platform by delivering training, account reviews, customer impact meetings, and troubleshooting through tasks, live meetings and chat.',
         'Managed product enhancement requests - Gathered user pain points and feedback from SaaS customers to identify recurring usability issues and product improvement opportunities.',
         'Troubleshoot and recreate system bugs, document clear steps to reproduce, and escalate to the development team for resolution, to verify fixes, and relay client feedback.',
