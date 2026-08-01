@@ -123,7 +123,7 @@ const Experience: React.FC = () => {
       responsibilities: [
         'Managed front desk operations, including greeting visitors and handling phone inquiries.',
         'Maintained office supplies and coordinated with vendors for regular deliveries.',
-        'Assisted in organizing meetings and maintained executive calendars.'
+        'Assisted in organizing meetings, managed day-to-day accounting operations within Tally, and maintained executive calendars.'
       ],
       expanded: false
     },
@@ -133,9 +133,8 @@ const Experience: React.FC = () => {
       company: 'Aabasoft Technologies Pvt Ltd',
       period: 'Oct 2018 - Jan 2019',
       responsibilities: [
-        'Handled customer inquiries via phone, providing accurate information and resolving issues.',
-        'Maintained detailed records of customer interactions and followed up on unresolved issues.',
-        'Collaborated with team members to ensure high-quality customer service.'
+        'Handled inbound phone inquiries, providing accurate information and resolving customer issues promptly.',
+        'Collaborated with team members to ensure consistent quality and process adherence.'
       ],
       expanded: false
     },
