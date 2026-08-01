@@ -21,12 +21,12 @@ const Experience: React.FC = () => {
       company: 'Leadable',
       period: 'May 2023 - Nov 2024',
       responsibilities: [
-        'Conducted comprehensive data research to enhance lead quality, targeting eCommerce, SaaS, Marketing, and Technology industries.',
-        'Utilized LinkedIn Sales Navigator, ZoomInfo, Crunchbase, Apollo, ContactOut, and Clearbit for contact/email research and ZeroBounce for email validation, streamlining the b2b lead generation process.',
-        'Managed research tasks with high accuracy, consistently meeting or exceeding performance targets.',
-        'Coordinated with team members on Slack and Asana, ensuring alignment on project goals and timely task completion.',
-        'Built targeted lists of companies based on client briefs and intent to facilitate sending personalized emails.',
-        'Conducted AI research to craft personalized email content, leveraging AI technology to enhance engagement with potential leads.'
+● Conducted comprehensive data research to enhance lead quality, targeting eCommerce, SaaS, Marketing, and Technology industries.
+● Utilized LinkedIn Sales Navigator, ZoomInfo, Crunchbase, Apollo, ContactOut, and Clearbit for contact/email research and ZeroBounce for email validation, streamlining the b2b lead generation process.
+● Managed research tasks with high accuracy, consistently meeting or exceeding performance targets.
+● Coordinated with team members on Slack and Asana, ensuring alignment on project goals and timely task completion.
+● Built targeted lists of companies based on client briefs and intent to facilitate sending personalized emails.
+● Conducted AI research to craft personalized email content, leveraging AI technology to enhance engagement with potential leads.
       ],
       expanded: true
     },
