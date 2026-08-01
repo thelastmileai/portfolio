@@ -17,9 +17,9 @@ const Skills: React.FC = () => {
     { name: 'Striven ERP (CRM+Accounting+Workflow Automation+Report Builder+Task/Project Management+HR)', level: 90 },
     { name: 'Accounting Operations (atACC ERP)', level: 80 },
     { name: 'Google Sheets | Google Workspace', level: 95 },
-    { name: 'GenAI proficiency (ChatGPT, Claude, Perplexity, Bolt, Gemini)', level: 100 },
+    { name: 'GenAI proficiency (ChatGPT, Claude, Perplexity, Bolt, Gemini, Copilot)', level: 100 },
     { name: 'Asana | Notion | Monday.com', level: 85 },
-    { name: 'Tech-savvy (GitHub, Stack Overflow)', level: 85 },
+    { name: 'Tech-savvy (GitHub, Python, Stack Overflow)', level: 85 },
   ];
 
   const softSkills = [
