@@ -24,7 +24,6 @@ const Footer: React.FC = () => {
               <span>Kochi, Kerala, India</span>
             </p>
             <p className="mb-4">
-              Experienced professional in data research, operations, and administration with a focus on accuracy and efficiency.
             </p>
           </div>
 
