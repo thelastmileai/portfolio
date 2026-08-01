@@ -94,10 +94,10 @@ const Education: React.FC = () => {
               <div>
                 <h4 className="text-xl font-bold mb-4">Professional Skills Development</h4>
                 <p className="mb-4">
-                  Throughout my educational and professional journey, I've developed a strong set of skills in data research, market analysis, and operational efficiency. I continually enhance these skills through practical application and self-directed learning.
+                  Throughout my educational and professional journey, I've developed a strong set of skills in data research, SaaS operations, and technical documentation. I continually enhance these skills through practical application and self-directed learning.
                 </p>
                 <p>
-                  I'm currently focused on expanding my knowledge in business administration through formal education, while simultaneously developing practical skills in data analysis and business operations through hands-on experience.
+                  I'm currently focused on expanding my knowledge in business administration through formal education, while simultaneously developing practical skills in product analysis and tech operations through hands-on experience.
                 </p>
               </div>
             </div>
