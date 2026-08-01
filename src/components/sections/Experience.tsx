@@ -17,23 +17,51 @@ const Experience: React.FC = () => {
   const [jobs, setJobs] = useState<Job[]>([
     {
       id: 1,
-      title: 'Operations Executive',
-      company: 'Leadable',
-      period: 'May 2023 - Nov 2024',
+      title: 'Product Documentation Specialist',
+      company: 'Cyncly',
+      period: 'Jul 2026 - Present',
       responsibilities: [
-● Conducted comprehensive data research to enhance lead quality, targeting eCommerce, SaaS, Marketing, and Technology industries.
-● Utilized LinkedIn Sales Navigator, ZoomInfo, Crunchbase, Apollo, ContactOut, and Clearbit for contact/email research and ZeroBounce for email validation, streamlining the b2b lead generation process.
-● Managed research tasks with high accuracy, consistently meeting or exceeding performance targets.
-● Coordinated with team members on Slack and Asana, ensuring alignment on project goals and timely task completion.
-● Built targeted lists of companies based on client briefs and intent to facilitate sending personalized emails.
-● Conducted AI research to craft personalized email content, leveraging AI technology to enhance engagement with potential leads.
+        'Create and update all kinds of documentation for software product solutions, including checking and improving existing documentation.',
+        'Write, publish, and distribute customer-friendly documents, including release notes, guides, and knowledgebases of help articles.',
+        'Handle the translation organisation and process of documents using translation software.',
+        'Ensure all required documentation is ready by Go to Market for new releases and maintain documentation to keep it up-to-date.',
+        'Contribute to the creation of videos, in-app help guides, and other digital material where appropriate.',
+        'Maintain Documentation Department standards to ensure consistency across the company.'
       ],
       expanded: true
     },
     {
       id: 2,
+      title: 'Striven Support Specialist',
+      company: 'Miles IT - USA (India - Remote)',
+      period: 'Aug 2025 - Jan 2026',
+      responsibilities: [
+        'Supported clients in adopting Striven\'s cloud-based ERP platform by delivering training, account reviews, customer impact meetings, and troubleshooting through tasks, live meetings and chat.',
+        'Managed product enhancement requests - Gathered user pain points and feedback from SaaS customers to identify recurring usability issues and product improvement opportunities.',
+        'Troubleshoot and recreate system bugs, document clear steps to reproduce, and escalate to the development team for resolution, to verify fixes, and relay client feedback.',
+        'Engaged with the Striven Community Forum and ensured a positive customer experience through clear communication and solution-oriented support.'
+      ],
+      expanded: false
+    },
+    {
+      id: 3,
+      title: 'Operations Executive',
+      company: 'Leadable',
+      period: 'May 2023 - Nov 2024',
+      responsibilities: [
+        'Conducted comprehensive data research to enhance lead quality, targeting eCommerce, SaaS, Marketing, and Technology industries.',
+        'Utilized LinkedIn Sales Navigator, ZoomInfo, Crunchbase, Apollo, ContactOut, and Clearbit for contact/email research and ZeroBounce for email validation, streamlining the b2b lead generation process.',
+        'Managed research tasks with high accuracy, consistently meeting or exceeding performance targets.',
+        'Coordinated with team members on Slack and Asana, ensuring alignment on project goals and timely task completion.',
+        'Built targeted lists of companies based on client briefs and intent to facilitate sending personalized emails.',
+        'Conducted AI research to craft personalized email content, leveraging AI technology to enhance engagement with potential leads.'
+      ],
+      expanded: false
+    },
+    {
+      id: 4,
       title: 'Office Admin and Accountant',
-      company: 'EcoViz - Lenore Industries AWLC Division',
+      company: 'EcoViz - Lenore Industries AWLC Division - Kochi',
       period: 'Jul 2022 - Mar 2023',
       responsibilities: [
         'Managed day-to-day office operations, accounting(atACC ERP), and administrative tasks, ensuring smooth workflow and timely completion.'
@@ -41,7 +69,7 @@ const Experience: React.FC = () => {
       expanded: false
     },
     {
-      id: 3,
+      id: 5,
       title: 'Freelance Article Writer',
       company: 'For a client',
       period: 'May 2022 - May 2023',
@@ -51,9 +79,9 @@ const Experience: React.FC = () => {
       expanded: false
     },
     {
-      id: 4,
+      id: 6,
       title: 'Associate Operations',
-      company: 'Invisor Global Education Pvt Ltd',
+      company: 'Invisor Global Education Pvt Ltd - Kochi',
       period: 'Sep 2021 - Jan 2022',
       responsibilities: [
         'Provided operational support in a CMA and ACCA educational setting by efficiently handling student inquiries and resolving support tickets.',
@@ -65,7 +93,7 @@ const Experience: React.FC = () => {
       expanded: false
     },
     {
-      id: 5,
+      id: 7,
       title: 'Project Sales Coordinator cum Content Writer',
       company: '50 Concepts/Odroo Technologies Pvt Ltd.',
       period: 'Feb 2021 - Sep 2021',
@@ -76,7 +104,7 @@ const Experience: React.FC = () => {
       expanded: false
     },
     {
-      id: 6,
+      id: 8,
       title: 'Content Writer',
       company: 'Hemito Digital Pvt Ltd',
       period: 'Feb 2020 - Jul 2020',
@@ -87,7 +115,7 @@ const Experience: React.FC = () => {
       expanded: false
     },
     {
-      id: 7,
+      id: 9,
       title: 'Front Office Administrator',
       company: 'Eyelink Systems',
       period: 'Jan 2019 - Jan 2020',
@@ -99,7 +127,7 @@ const Experience: React.FC = () => {
       expanded: false
     },
     {
-      id: 8,
+      id: 10,
       title: 'Process Voice Associate',
       company: 'Aabasoft Technologies Pvt Ltd',
       period: 'Oct 2018 - Jan 2019',
